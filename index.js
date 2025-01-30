@@ -38,7 +38,7 @@ app.listen(port, () => {
 });
 
 const statusMessages = ["Helping Users", "Helping Staff", "Running Commands", "Watching Server", "Watching Site"];
-const statusTypes = [ 'online'];
+const statusTypes = ['dnd'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
